@@ -3,9 +3,9 @@ Practice with the dictionary built-in data type.
 
 File: programming_languages.py
 Initial developers: COMP 801 instructors
-Developer: [enter your name]
-Collaborator(s): [enter your collaborator(s) names]
-Date:
+Developer: Swathi
+Collaborator(s): Ruchitha
+Date: 10/03/2024
 """
 
 

@@ -1,4 +1,5 @@
-- **Developer**: [enter your name and collaborator(s) names]
+- **Developer**: Swathi
+- **Collaborator**: Ruchitha
 
 ## Design of `find_languages()` method
 

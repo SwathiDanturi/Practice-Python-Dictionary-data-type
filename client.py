@@ -3,8 +3,8 @@ Practice with the dictionary built-in data type.
 
 File: client.py
 Initial developers: COMP 801 instructors
-Developer: Mihaela
-Collaborator(s): COMP 801 class M2
+Developer: Swathi
+Collaborator(s): Ruchitha
 Date:
 """
 from programming_languages import ProgrammingLanguages
