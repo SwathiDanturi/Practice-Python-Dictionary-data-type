@@ -34,7 +34,7 @@ def test_constructor_1_2():
     Test constructor with one programmer, with 2 programming langauges
     """
     programmers = ['Swathi']
-    languages = ['C', 'Java']
+    languages = [['C', 'Java']]
 
     pl_obj = ProgrammingLanguages(programmers, languages)
 
