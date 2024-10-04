@@ -29,13 +29,15 @@ def test_find_langauges_2_2_1():
 
 def test_find_langauges_1_2():
     """
-    Test constructor with one programmer, with 2 programming langauges
+    Test constructor with two programmers, 1st with 2 programming langauges,
+    2nd programmer with 1 programmin glangauge
     """
     programmers = ['Swathi']
     languages = [['C', 'Java']]
 
     language_obj = ProgrammingLanguages(programmers, languages)
-    expected = ['C', 'Java']
+
+    expected = ["C", "Java"]
     actual = language_obj.find_languages("Swathi")
 
     assert expected == actual
