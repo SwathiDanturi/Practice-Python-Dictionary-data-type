@@ -33,7 +33,7 @@ def test_find_programmers_more_than_one_programmer():
     programmers = ['Bill', 'Joan']
     languages = [['C++', 'Python'], ['C++']]
     pl_obj = ProgrammingLanguages(programmers, languages)
-    expected = [['Bill', 'Joan']]
+    expected = ['Bill', 'Joan']
     actual = pl_obj.find_programmers('C++')
     assert actual == expected
 

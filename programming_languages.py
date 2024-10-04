@@ -62,7 +62,7 @@ class ProgrammingLanguages:
         :return: a list of programmers proficient in the input language
         """
 
-        return []  # stub
+        return list(self.languages[language])  # stub
 
     def find_languages(self, programmer):
         """

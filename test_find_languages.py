@@ -25,3 +25,17 @@ def test_find_langauges_2_2_1():
     actual = language_obj.find_languages("Bill")
 
     assert expected == actual
+
+
+def test_find_langauges_1_2():
+    """
+    Test constructor with one programmer, with 2 programming langauges
+    """
+    programmers = ['Swathi']
+    languages = [['C', 'Java']]
+
+    language_obj = ProgrammingLanguages(programmers, languages)
+    expected = ['C', 'Java']
+    actual = language_obj.find_languages("Swathi")
+
+    assert expected == actual
