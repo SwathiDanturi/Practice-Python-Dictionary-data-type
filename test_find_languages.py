@@ -8,6 +8,7 @@ Collaborator(s): Ruchitha
 Date: 10/03/2024
 """
 
+import pytest
 from programming_languages import ProgrammingLanguages
 
 
@@ -24,7 +25,7 @@ def test_find_langauges_2_2_1():
     expected = ["C++", "Python"]
     actual = language_obj.find_languages("Bill")
 
-    assert expected == actual
+    assert actual == expected
 
 
 def test_find_langauges_1_2():
@@ -39,4 +40,7 @@ def test_find_langauges_1_2():
     expected = ["C", "Java"]
     actual = language_obj.find_languages("Swathi")
 
-    assert expected == actual
+    assert actual == expected
+
+
+pytest.main()

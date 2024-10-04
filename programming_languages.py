@@ -70,4 +70,4 @@ class ProgrammingLanguages:
         :return: a list languages in which the programmer is proficient.
         """
 
-        return []  # stub
+        return list(self.programmers[programmer])  # stub
