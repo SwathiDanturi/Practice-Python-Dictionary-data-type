@@ -15,3 +15,8 @@
 ## Design of `find_languages()` method
 
 ## Design of `find_programmers()` method
+- `self` is the current instance of the class
+- `language` is a programming language of type string is passed as an argument to the method
+- get the programmers list from `self.language` dictionary associated with the key `language`
+    * `self.language` is populated with required data during class instance creation.
+- type cast it to a list and return the resulted list
