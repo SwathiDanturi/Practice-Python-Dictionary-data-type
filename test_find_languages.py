@@ -13,7 +13,7 @@ from programming_languages import ProgrammingLanguages
 
 def test_find_langauges_2_2_1():
     """
-    Test constructor with two programmers, 1st with 2 programming langauges,
+    Test find_langauges with two programmers, 1st with 2 programming langauges,
     2nd programmer with 1 programmin glangauge
     """
     programmers = ["Bill", "Joan"]
@@ -29,8 +29,7 @@ def test_find_langauges_2_2_1():
 
 def test_find_langauges_1_2():
     """
-    Test constructor with two programmers, 1st with 2 programming langauges,
-    2nd programmer with 1 programmin glangauge
+    Test find_langauges with one programmer, 2 programming langauges
     """
     programmers = ['Swathi']
     languages = [['C', 'Java']]

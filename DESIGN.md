@@ -9,14 +9,19 @@
     - assign the element at `index` position in the `languages` to the `self.programmers` dictionary for the `key` `programmers[index]`
     - for `language` in `languages[index]` sublist of `languages`, do the following:
         - if `language` is not already present as `key` in `self.languages`:
-            - intialize `self.language` with key `language` to an empty list
-        - concatenate the value at `programmer[index]` to the key `language` of `self.language`
+            - intialize `self.languages` with key `language` to an empty list
+        - concatenate the value at `programmer[index]` to the key `language` of `self.languages`
 
 ## Design of `find_languages()` method
+- `self` is the current instance of the class
+- `programmer` is the name of the programmer of type string is passed as an argument to the method
+- get the language list from `self.programmers` dictionary associated with the key `programmer`
+    * `self.programmers` is populated with required data during class instance creation.
+- type cast it to a list and return the resulted list
 
 ## Design of `find_programmers()` method
 - `self` is the current instance of the class
 - `language` is a programming language of type string is passed as an argument to the method
-- get the programmers list from `self.language` dictionary associated with the key `language`
-    * `self.language` is populated with required data during class instance creation.
+- get the programmers list from `self.languages` dictionary associated with the key `language`
+    * `self.languages` is populated with required data during class instance creation.
 - type cast it to a list and return the resulted list
