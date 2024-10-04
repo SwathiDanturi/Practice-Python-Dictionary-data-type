@@ -7,6 +7,7 @@ Developer: Swathi
 Collaborator(s): Ruchitha
 Date: 10/03/2024
 """
+import pytest
 from programming_languages import ProgrammingLanguages
 
 
@@ -45,3 +46,6 @@ def test_constructor_1_2():
     actual = (actual_p, actual_l)
     expected = (expected_p, expected_l)
     assert actual == expected
+
+
+pytest.main()

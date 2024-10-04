@@ -49,6 +49,13 @@ class ProgrammingLanguages:
         self.languages = {}
         self.programmers = {}
 
+        for index in range(len(programmers)):
+            self.programmers[programmers[index]] = languages[index]
+            for language in languages[index]:
+                if language not in self.languages:
+                    self.languages[language] = []
+                self.languages[language] += [programmers[index]]
+
     def find_programmers(self, language):
         """
         :param language: a programming language in the form of a string.
